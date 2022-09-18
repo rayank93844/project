@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="utility/utili.css">
+    <link rel="stylesheet" href="responsive/responsive.css"> -->
+</head>
+
+<style>
+    .flow-all-centre{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+main{
+   height: 83.9vh;
+   
+   
+}
+.search button{
+   font-family: 'Poppins', sans-serif;
+   border: 2px solid blue;
+}
+
+button:hover{
+   background-color: blue;
+   font-weight: bold;
+}
+.btn{
+   padding: 2px 11px;
+    color: white;
+    background-color:rgba(70, 70, 252, 0.583);
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    height: 28px;
+    border: 2px solid blue;
+    font-weight: bold;
+}
+.container1{
+   background-color: aliceblue;
+}
+h2{
+   display: flex;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+   color: steelblue;
+   font-weight: bolder;
+ 
+
+}
+
+.container2{
+   max-width: 1200px;
+   margin: auto;
+   overflow: auto;
+  
+   
+}
+.card-item{
+   margin: 5px;
+   float: left;
+   width: 290px;
+}
+.card-item img{
+   width: 270px;
+   height: 193px;
+}
+.names{
+   color: blue;
+   font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   cursor: pointer;
+}
+.heading{
+   color:aliceblue;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+}
+.heading:hover{
+   color:rgba(70, 70, 252, 0.583);
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+}
+.details{
+   color:aliceblue;
+   font-style: italic;
+   font-weight: bolder;
+}
+.details:hover{
+   color:rgba(70, 70, 252, 0.583);
+   font-family: 'Poppins', sans-serif;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(22, 22, 22, 0.857);
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    height: 8vh;
+   padding: 4px;
+   color:rgba(70, 70, 252, 0.583);
+    
+
+}
+.logo img{
+   
+   border: 2px solid rgba(70, 70, 252, 0.583);
+    
+
+}
+
+
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+nav ul li {
+    color: aliceblue;
+    list-style: none;
+    padding: 0 25px;
+}
+nav ul li a{
+    
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+   
+   text-decoration: none;
+    
+}
+
+
+nav ul li a:hover{
+    color:rgba(70, 70, 252, 0.583);
+    font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   text-decoration: none;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 40svw;
+}
+.search input{
+    width: 25vw;
+    padding: 0px 0px;
+    margin: 19px;
+    border-radius: 5px;
+    height: 22px;
+    border: 2px solid rgba(70, 70, 252, 0.583);;
+ } 
+
+
+  .slider{
+    margin: 12px auto;
+    width: 50vw;
+    
+    
+ } 
+ .slider img {
+   
+    height: 350px;
+    width: 800px;
+ }
+ 
+footer{ 
+    margin: 0px;
+    height: 7vh;
+    background-color: rgba(22, 22, 22, 0.857);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}   
+   
+@media  screen and (max-width:1203px) {
+    nav{
+       flex-direction: column;
+    }
+    .logo{
+        justify-content:center;
+        margin: 12px 0;
+      
+    }
+    .logo img{
+        width:182px;
+    }
+    nav ul{
+        justify-content: center;
+        height:34px;
+    }
+  
+    .search input{
+        margin: 1px 13px 0px 124px;
+    }
+    nav ul li{
+        padding:8px 6px;
+    }
+  h1{
+    margin: 6px 132px -5px;
+    font-size: 13px;
+  }
+  h5{
+    justify-content: center;
+    display: flex;
+}
+.slider img{
+    width: 90vw;
+    margin: 0px -83px -4px;
+    height: 26vh;
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+}
+h2{
+    margin: 26px;
+}
+main{
+    height: 63.9vh;
+}
+footer{
+    margin: 0px;
+    height: 7vh;
+}
+  }
+
+
+    
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://c4.wallpaperflare.com/wallpaper/210/925/103/ultrawide-superultrawide-hd-wallpaper-preview.jpg"
+                    alt="not loaded">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</li></a>
+                <li><a href="about.html">About</li></a>
+                <li><a href="contact.html">Contact</li></a>
+
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search Here For Branded Cars">
+                <button class="btn">Search</button>
+            </div>
+            <div class="heading">
+                <h1>
+                    RAYS CARS 
+                    WEBSITE
+                </h1> 
+                
+            </div>
+            <div class="details">
+                <pre>
+                <h5>In this website 
+                    You can buy branded cars </h5>
+                    </pre>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <div class="container1">
+
+            <div class="slider">
+                <img src="https://c4.wallpaperflare.com/wallpaper/769/341/273/siju-lambogini-cars-lamborghini-hd-art-wallpaper-preview.jpg"
+                    alt="">
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h2>BRANDED CARS</h2>
+        </div>
+        <div class="container2">
+            <div class="card-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/1011/898/396/lamborghini-cool-car-famous-brand-dark-background-black-window-wallpaper-preview.jpg"
+                    alt="">
+                <div class="names">LAMBORGHINI</div>
+            </div>
+
+
+            <div class="card-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/355/897/73/bmw-m4-coupe-wallpaper-preview.jpg"
+                    alt="">
+
+
+                <div class="names">BMW</div>
+            </div>
+            <div class="card-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/783/829/270/car-ferrari-red-cars-wallpaper-preview.jpg"
+                
+                    alt="">
+
+
+                <div class="names">FERRARI</div>
+            </div>
+            <div class="card-item">
+                <img src="https://c4.wallpaperflare.com/wallpaper/292/59/818/car-porsche-dark-vehicle-wallpaper-preview.jpg"
+                    alt="">
+
+
+                <div class="names">PORSCHE</div>
+            </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="flow-all-centre">
+
+        <p> Copyright &copy; rayscars.com</p>
+    </footer>
+
+
+</body>
+
+</html>
